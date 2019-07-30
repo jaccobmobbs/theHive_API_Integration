@@ -45,7 +45,7 @@ def findIOC(iocs, list):
     return description
 
 def sentinelone2thehiveAlert():
-    instructions= "\n***\n[Category 3 - Documentation](https://insidemaximus.maximus.com/sites/SOC/_layouts/OneNote.aspx?id=%2Fsites%2FSOC%2FShared%20Documents%2FSOC%20Collaboration&wd=target%28Investigation%20Guide.one%7C3F8F656A-9FF7-4AFF-9308-D14E0015867E%2FCategory%203%20-%20Malicious%20Code%5C%2FMalware%7C14B9B007-DDF3-4B9B-B1BB-3FB4D6F4A0FB%2F%29onenote:https://insidemaximus.maximus.com/sites/SOC/Shared%20Documents/SOC%20Collaboration/Investigation%20Guide.one#Category%203%20-%20Malicious%20Code/Malware&section-id={3F8F656A-9FF7-4AFF-9308-D14E0015867E}&page-id={14B9B007-DDF3-4B9B-B1BB-3FB4D6F4A0FB}&end)\n***\n[Incident Response Plan](https://insidemaximus.maximus.com/sites/SOC/_layouts/OneNote.aspx?id=%2Fsites%2FSOC%2FShared%20Documents%2FSOC%20Collaboration&wd=target%28Investigation%20Guide.one%7C3F8F656A-9FF7-4AFF-9308-D14E0015867E%2FIR%20Plan%7C6E63511D-B2E5-486E-B1F7-AF8D2CD10A45%2F%29onenote:https://insidemaximus.maximus.com/sites/SOC/Shared%20Documents/SOC%20Collaboration/Investigation%20Guide.one#IR%20Plan&section-id={3F8F656A-9FF7-4AFF-9308-D14E0015867E}&page-id={6E63511D-B2E5-486E-B1F7-AF8D2CD10A45}&end)\n***"
+    instructions= ""
     #Initiating TheHive Api connection
     hive=thehive.theHiveConnection
     #Initiating SentinelOne connection
