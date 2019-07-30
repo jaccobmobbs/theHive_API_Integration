@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/ubuntu/soWolfkrieg
+permissions:
+  - object: /home/ubuntu/soWolfkrieg
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+    mode: 755
+    type:
+      - file
+      - directory
+hooks:
+
+  AfterInstall:
+    - location: scripts/setup_virtualenv.sh
