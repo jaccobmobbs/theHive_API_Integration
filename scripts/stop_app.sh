@@ -1,0 +1,3 @@
+#!/bin/bash
+
+#kill off any older instances of wolfskrieg...
